@@ -1,0 +1,41 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+# Environments 
+.env 
+.venv 
+env/ 
+venv/ 
+ENV/ 
+env.bak/ 
+venv.bak/ Include
+Lib
+# README.md
+Scripts
+pyvenv.cfg
+
+# Backup files # 
+*.bak 
+
+# If you are using PyCharm # 
+# User-specific stuff
+# .idea/**/workspace.xml
+# .idea/**/tasks.xml
+# .idea/**/usage.statistics.xml
+# .idea/**/dictionaries
+# .idea/**/shelf
+
+# sftp configuration file 
+# sftp-config.json 
+
+# Sublime Text # 
+# *.tmlanguage.cache 
+# *.tmPreferences.cache 
+# *.stTheme.cache 
+# *.sublime-workspace 
+# *.sublime-project 
