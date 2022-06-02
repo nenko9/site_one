@@ -1,0 +1,103 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+
+
+
+
+    <link rel="shortcut icon" type="image/ico" href="{% static 'images/favicon.ico' %}" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Roboto:wght@100;300;400&family=Spline+Sans+Mono:wght@500&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <title>HOMEPAGE</title>
+</head>
+
+<body>
+    <!-- <div class="body_container"> -->
+    <div class="header">
+        <div class="header_container">
+            <div class="header__logo">
+                <img src="{% static 'images/logo.svg'%}" style="height:40px;">
+            </div>
+            <div class="header__button">home</div>
+            <div class="header__button">menu</div>
+        </div>
+    </div>
+    <div class="content-box">
+        <div class="content-box_container">
+            <div class="article_row-rev">
+                <div class="article__img">
+                    <img src="{% static 'images/img_template.svg'%}">
+                </div>
+                <div class="article__text">
+                    <h3 class="article__title">text title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolorum itaque rem a magnam
+                        necessitatibus possimus fugit corrupti voluptatum assumenda nulla commodi iure rerum, dicta
+                        molestiae vitae perspiciatis nemo fugiat?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae inventore suscipit,
+                        autem expedita cum necessitatibus, non accusamus a consequuntur tenetur enim ullam sint
+                        dicta
+                        fugiat temporibus sed quos porro?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo numquam praesentium ducimus
+                        quis
+                        laudantium, ea officia atque natus repellat officiis voluptatem sunt porro vel voluptatibus
+                        placeat. Reprehenderit repellendus quos minus.</p>
+                </div>
+            </div>
+            <div class="article_row">
+                <div class="article__img">
+                    <img src="{% static 'images/img_template.svg'%}">
+                </div>
+                <div class="article__text">
+                    <h3 class="article__title">text title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolorum itaque rem a magnam
+                        necessitatibus possimus fugit corrupti voluptatum assumenda nulla commodi iure rerum, dicta
+                        molestiae vitae perspiciatis nemo fugiat?</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae recusandae inventore suscipit,
+                        autem expedita cum necessitatibus, non accusamus a consequuntur tenetur enim ullam sint
+                        dicta
+                        fugiat temporibus sed quos porro?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo numquam praesentium ducimus
+                        quis
+                        laudantium, ea officia atque natus repellat officiis voluptatem sunt porro vel voluptatibus
+                        placeat. Reprehenderit repellendus quos minus.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottom_container">
+            <div class="sm-links">
+                <!-- img<a href="/"></a> -->
+                <!-- <a href="/">our price</a> -->
+                <!-- <a href="/">our contacts</a> -->
+                <img class="sm__icons" src="{% static 'images/viber-icon.svg'%}">
+                <img class="sm__icons" src="{% static 'images/whatsapp-icon.svg'%}">
+                <img class="sm__icons" src="{% static 'images/telegram.svg'%}">
+                <!-- <img class="sm__icons" src=""> -->
+            </div>
+            <div class="contacts">
+                <ul>
+                    <a href="/">our works</a>
+                    <a href="/">our price</a>
+                    <a href="/">our contacts</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+</body>
+
+</html>
