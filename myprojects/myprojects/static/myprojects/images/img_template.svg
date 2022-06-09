@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="138.33 62.692 266.952 127.938" xmlns="http://www.w3.org/2000/svg">
-  <rect x="139.352" y="63.374" width="264.395" height="126.746" style="stroke: rgb(0, 0, 0); fill: rgb(172, 169, 169);"/>
-  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="140.715" y1="191.482" x2="192.504" y2="156.729"/>
-  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="192.504" y1="97.445" x2="140.715" y2="64.736"/>
-  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="349.233" y1="97.445" x2="402.385" y2="64.055"/>
-  <line style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" x1="351.278" y1="156.729" x2="404.429" y2="190.801"/>
-  <text style="fill: rgb(211, 207, 207); font-family: Arial, sans-serif; font-size: 23.9px; white-space: pre;" x="238.16" y="132.198">Image</text>
-</svg>
